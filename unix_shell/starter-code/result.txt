@@ -1,0 +1,1 @@
+-rw-rw-r-- 1 nurican-ozcan nurican-ozcan    13 Dec 28 14:30 out.txt

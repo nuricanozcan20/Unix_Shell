@@ -1,0 +1,8 @@
+digraph ProcessTree {
+    node [shape=box];
+    node17982 [label="gnome-terminal-\nPID: 17982"];
+    node17994 [label="bash\nPID: 17994"];
+    node17982 -> node17994;
+    node18570 [label="dash\nPID: 18570"];
+    node17994 -> node18570;
+}

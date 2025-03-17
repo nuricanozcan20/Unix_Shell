@@ -1,0 +1,14 @@
+digraph ProcessTree {
+    node [shape=box];
+    node1953 [label="gnome-session-b\nPID: 1953"];
+    node1989 [label="at-spi-bus-laun\nPID: 1989"];
+    node1953 -> node1989;
+    node2000 [label="dbus-daemon\nPID: 2000"];
+    node1989 -> node2000;
+    node2164 [label="evolution-alarm\nPID: 2164"];
+    node1953 -> node2164;
+    node2169 [label="gsd-disk-utilit\nPID: 2169"];
+    node1953 -> node2169;
+    node2811 [label="update-notifier\nPID: 2811"];
+    node1953 -> node2811;
+}

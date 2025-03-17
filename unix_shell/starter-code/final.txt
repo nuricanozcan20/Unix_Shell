@@ -1,0 +1,4 @@
+Process Tree Starting From PID: 17982
+-> PID: 17982, Command: gnome-terminal- (Depth:0)
+  -> PID: 17994, Command: bash (Depth:1)
+    -> PID: 18570, Command: dash (Depth:2)
